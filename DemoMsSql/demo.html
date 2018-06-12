@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Devis</title>
+    
+    <style>
+        footer {vertical-align: bottom}
+
+        body { font-family: sans-serif; height: 200%}
+
+        h1 {color:midnightblue}
+
+        table.facture {
+            width: 100%;
+            height: 80%;
+            border: 1px 1px 1px 1px solid midnightblue
+        }
+        thead {
+            border-bottom: 1px solid midnightblue
+        }
+        td.produit {width: 70%}
+        td.number {
+            text-align: right; 
+            width: 10%; 
+            padding-right: 5%;
+            border-left: 1px solid midnightblue
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Devis</h1>
+    <hr/>
+</header>
+<main>
+    <section>
+        <h2>Titre de section</h2>
+        
+        <table class="facture">
+            <thead>
+            <tr>
+                <td>Produit</td>
+                <td>Quantité</td>
+                <td>P.U.</td>
+                <td>Total</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="produit">Pdt1</td>
+                <td class="number">5</td>
+                <td class="number">100</td>
+                <td class="number">500</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+<footer>
+    <hr/>
+    <p>Tout en bas</p>
+</footer>
+</body>
+</html>
